@@ -1,0 +1,171 @@
+.App {
+  width: 98%;
+  margin: auto;
+  background: lawngreen;
+}
+
+@media (min-width: 450px) and (max-width: 800px) {
+  .App {
+    background: limegreen;
+  }
+}
+
+@media (max-width: 449px) {
+  .App {
+    background: blue;
+  }
+}
+
+.App h1 {
+  text-align: center;
+}
+
+.App .top-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App .top-row .display-wrapper {
+  border: 3px solid black;
+  width: 70%;
+  margin: auto;
+}
+
+.App .top-row .display-wrapper .tracker-wrapper {
+  margin: auto;
+  border-bottom: 3px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.App .top-row .display-wrapper .display-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.App .top-row .display-wrapper .display-row h2 {
+  width: 30%;
+  text-align: center;
+}
+
+.App .top-row .base-tracker-wrapper {
+  width: 25%;
+  height: 100%;
+  margin: auto;
+  border: 2px solid orange;
+  text-align: center;
+}
+
+.App .top-row .base-tracker-wrapper .bases {
+  width: 95%;
+  margin: 1rem auto;
+  padding-bottom: .5rem;
+}
+
+.App .top-row .base-tracker-wrapper .bases span {
+  border: 2px solid black;
+  border-radius: 40%;
+  padding: .2rem;
+}
+
+.App .top-row .base-tracker-wrapper .bases .bases-row2 {
+  padding: .5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.App .dashboard-wrapper {
+  border: 3px solid blue;
+  width: 75%;
+  margin: 1rem auto;
+}
+
+.App .dashboard-wrapper .dashboard-row {
+  padding: .4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.App .dashboard-wrapper button {
+  border: 2px solid black;
+  border-radius: 30%;
+  padding: .3rem 2rem;
+  background: lightgrey;
+  font-size: 1.5rem;
+}
+
+.App #game-record-header {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.App .bottom-row {
+  width: 95%;
+  padding-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.App .bottom-row .roster-wrapper {
+  border: 2px solid black;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.App .bottom-row .team-column {
+  width: 50%;
+}
+
+.App .bottom-row .team-column h3 {
+  text-align: center;
+}
+
+.App .bottom-row .team-column ol {
+  width: 50%;
+  margin: auto;
+}
+
+.App .bottom-row .record-wrapper {
+  border: 2px solid red;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.App .bottom-row .record-wrapper .record-column {
+  text-align: center;
+  width: 50%;
+}
+
+.App .bottom-row .record-wrapper .record-column .stats {
+  color: red;
+}
+
+.App .bottom-row .record-wrapper .record-column .stats .stat span {
+  border: 1px solid blue;
+  margin: auto 5px;
+}
+/*# sourceMappingURL=App.css.map */
